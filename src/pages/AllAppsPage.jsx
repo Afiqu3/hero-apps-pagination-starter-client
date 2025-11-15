@@ -37,6 +37,7 @@ const AllAppsPage = () => {
 
   const handleSearch = (e) => {
     setSearchText(e.target.value);
+    setCurrentPage(0);
   };
 
   return (
